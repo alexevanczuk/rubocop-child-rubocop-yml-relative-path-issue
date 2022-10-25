@@ -1,13 +1,1 @@
-inherit_mode:
-  merge:
-    - Exclude
-
-AllCops:
-  NewCops: enable
-  UseCache: false
-
-Style/StringLiterals:
-  EnforcedStyle: single_quotes
-  Include:
-    - spec/**/*.rb
-    - packs/**/spec/**/*.rb
+inherit_from: '.inherited_rubocop.yml'
