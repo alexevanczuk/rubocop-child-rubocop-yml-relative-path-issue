@@ -6,8 +6,8 @@ AllCops:
   NewCops: enable
   UseCache: false
 
-Style/StringLiterals:
-  EnforcedStyle: single_quotes
+Layout/LineLength:
+  Enabled: true
+  # When this is commented out, `Layout/LineLength` triggers on packs/my_pack/app/models/my_file.rb
   Include:
-    - spec/**/*.rb
-    - packs/**/spec/**/*.rb
+    - 'packs/**/*.rb'
