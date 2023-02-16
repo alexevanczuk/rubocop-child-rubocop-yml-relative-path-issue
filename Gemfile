@@ -3,4 +3,4 @@
 source 'https://rubygems.org'
 
 gem 'pry-byebug'
-gem 'rubocop', '1.26.1'
+gem 'rubocop', path: '../rubocop'

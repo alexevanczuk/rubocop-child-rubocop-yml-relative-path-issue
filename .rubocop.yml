@@ -10,4 +10,4 @@ Layout/LineLength:
   Enabled: true
   # When this is commented out, `Layout/LineLength` triggers on packs/my_pack/app/models/my_file.rb
   Include:
-    - 'packs/**/*.rb'
+    - 'app/models/**/*.rb'
